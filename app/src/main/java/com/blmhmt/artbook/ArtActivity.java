@@ -33,7 +33,6 @@ import java.io.ByteArrayOutputStream;
 public class ArtActivity extends AppCompatActivity {
 
     private ActivityArtBinding binding;
-    //activity sonucu başlatıcı
     ActivityResultLauncher<Intent> activityResultLauncher;
     ActivityResultLauncher<String> permissionLauncher;
     Bitmap selectedImage;
